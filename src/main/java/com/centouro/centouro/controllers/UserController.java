@@ -1,4 +1,4 @@
-package com.centouro.centouro.controller;
+package com.centouro.centouro.controllers;
 
 import org.springframework.web.bind.annotation.*;
 
