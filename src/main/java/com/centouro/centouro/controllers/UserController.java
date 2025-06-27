@@ -11,6 +11,11 @@ public class UserController {
     private Map<Long, String> fakeUserDb = new HashMap<>();
     private long userIdSequence = 1;
 
+    @GetMapping("/hello")
+    public String getUsers() {
+        return "Hello world";
+    }
+
     // GET /users
     @GetMapping
     public List<String> getAllUsers() {
